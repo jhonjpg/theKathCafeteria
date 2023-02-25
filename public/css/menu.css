@@ -1,0 +1,278 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    /* background-image: url("../img/5e9039d4-7aaf-4445-9f8d-4474ccb889a3.JPG"); */
+    background-image: url("https://images.pexels.com/photos/604969/pexels-photo-604969.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: fixed;
+}
+
+.menu p {
+    font-size: 4em;
+    color: white;
+    font-weight: 800;
+    font-family: fantasy;
+    text-shadow: 2px 2px 0px rgb(29, 29, 29), 5px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.menuNav {
+    display: flex;
+    justify-content: space-around;
+    padding: 2px !important;
+    gap: 6px;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 10px;
+    height: 170px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.menuNav li {
+    display: flex;
+    font-family: fantasy;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 120px;
+    height: 55px;
+    padding: 1px !important;
+    border-top: 2px solid rgba(190, 190, 190, 0.2);
+    border-radius: 10px;
+    color: black;
+    box-shadow: rgba(149, 157, 165, 0.2) -25px -2px 24px;
+    transition: 0.6s;
+    scroll-behavior: smooth;
+}
+
+.menuNav li:active {
+    display: flex;
+    font-family: fantasy;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 120px;
+    height: 55px;
+    padding: 1px !important;
+    border-top: 2px solid rgba(190, 190, 190, 0.2);
+    border-radius: 10px;
+    color: black;
+    box-shadow: rgba(149, 157, 165, 0.2) -25px -2px 24px;
+    transition: 0.6s;
+}
+
+.menuNav li:hover {
+    box-shadow: rgb(38, 57, 77) 18px -10px 20px -10px;
+    background-color: #262626;
+    color: #be6f40;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.menuNav li:hover>.OpcionesDeMenu {
+    background-color: white;
+    color: color;
+    transition: 0.6s;
+}
+
+.menuImage {
+    width: 300px;
+    height: 390px;
+    background-image: url("../img/mas/IMG_6175.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px 0px;
+    border-radius: 30px;
+    box-shadow: rgba(2, 2, 2, 0.4) -5px 5px, rgba(42, 42, 42, 0.3) -10px 10px, rgba(77, 77, 77, 0.2) -15px 15px, rgba(42, 42, 42, 0.1) -20px 20px, rgba(0, 0, 0, 0.05) -25px 25px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    animation: rotate 2s linear;
+    animation-delay: 0.7s;
+    transition: 1s;
+}
+
+.menuImage:hover {
+    transform: scale(1.7) translateY(-50px);
+    transition: 0.8s;
+    transition-delay: 1.5s;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateX(0deg) translateY(1050px) rotateY(0deg) rotateZ(0deg);
+    }
+    to {
+        transform: rotateX(360deg) translateY(0px) rotateY(360deg) rotateZ(360deg);
+    }
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(218, 218, 218);
+}
+
+.welcomeLetter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    height: 86%;
+    padding: 10px;
+}
+
+.welcomeImage {
+    width: 40%;
+    height: 86%;
+    background-image: url("../img/kath1.JPG");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.welcomeLetter h2 {
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.welcomeLetter h1 {
+    width: 100%;
+    font-size: 2.4em;
+    font-weight: 700;
+    text-shadow: 3em 3em 3em 3em black;
+    text-align: center;
+}
+
+.welcomeLetter p {
+    width: 100%;
+    text-align: justify;
+}
+
+.menuOption {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 56vh;
+    background-image: url("../img/food.JPG");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -610px;
+    overflow: hidden;
+}
+
+.menuOption h3 {
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+    color: white;
+    position: absolute;
+    padding-bottom: 100px !important;
+}
+
+.menuOption h4 {
+    text-align: center;
+    width: 100%;
+    font-size: 4em;
+    color: white;
+    position: absolute;
+}
+
+.menuSlide {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 86vh;
+    padding: 10px;
+}
+
+.menuSlideImage {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: brown !important;
+    height: 86%;
+}
+
+.OpcionesDeMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25em;
+}
+
+ol {
+    padding: 10px !important;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    animation: slideLeft;
+    animation-duration: 1s;
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(-460px);
+        transition: 1s;
+    }
+    100% {
+        transform: translateX(0px);
+        transition: 1s;
+    }
+}
+
+#berage1 {
+    width: 24%;
+    height: 5em;
+    /* background-image: url("../img/mas/bebido1.JPG"); */
+    background-image: url("https://images.pexels.com/photos/1126975/pexels-photo-1126975.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+#berage2 {
+    width: 24%;
+    height: 5em;
+    /* background-image: url("../img/mas/bebido2.JPG"); */
+    background-image: url("https://images.pexels.com/photos/1337825/pexels-photo-1337825.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+#berage3 {
+    width: 24%;
+    height: 5em;
+    /* background-image: url("../img/mas/bebida2.JPG"); */
+    background-image: url("https://images.pexels.com/photos/109275/pexels-photo-109275.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+#berage4 {
+    width: 24%;
+    height: 5em;
+    /* background-image: url("../img/mas/bebida3.JPG"); */
+    background-image: url("https://images.pexels.com/photos/338713/pexels-photo-338713.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
