@@ -35,8 +35,7 @@ const Home = () => {
 
             <h1>The kath</h1>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nihil omnis, amet ullam, inventore consequuntur numquam sequi vel pariatur assumenda soluta corrupti consequatur facilis eum magni
-              adipisci! Placeat, voluptas aliquam?</p>
+            <p>Bienvenido la cafeteria The Kath lugar que  necesitarás visitar. Brindamos a nuestros clientes variedades de comida . Desde la decoración hasta el servicio al cliente, pasando por las risas y alegrías compartidas entre amigos, The Kath reúne a todos para una experiencia completa y memorable.</p>
 
 
           </div>
@@ -52,6 +51,33 @@ const Home = () => {
 
 
         </div>
+
+        {/* phone version */}
+        <div className="welcomeResponsive ">
+
+
+<div className="welcomeLetter ">
+
+  <h2>Cafeteria</h2>
+
+  <h1>The kath</h1>
+
+  <p>Bienvenido la cafeteria The Kath lugar que  necesitarás visitar. Brindamos a nuestros clientes variedades de comida . Desde la decoración hasta el servicio al cliente, pasando por las risas y alegrías compartidas entre amigos, The Kath reúne a todos para una experiencia completa y memorable.</p>
+
+
+</div>
+
+<div className="welcomeImage " >
+<div className="opacity"></div>
+
+</div>
+
+
+
+
+
+
+      </div>
 
 
 
@@ -155,6 +181,7 @@ const Home = () => {
           </div>
 
           <div className="celebrateImage rounded-3">
+            
           <div className="opacity rounded-3"></div>
 
 
@@ -173,7 +200,7 @@ const Home = () => {
 
         </div>
 
-<div ref={footer} className={`display:none ${footer}: footer`}>
+<div>
 
         <Footer />
 
