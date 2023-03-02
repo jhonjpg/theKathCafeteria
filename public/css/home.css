@@ -61,7 +61,7 @@
         /* responsive section None */
         
         .navbarTophone {
-            display: none;
+            display: none !important;
         }
         
         #intagram {
@@ -625,6 +625,7 @@
                 width: 100%;
             }
             .navbarTophone {
+                display: flex !important;
                 position: absolute;
                 top: 0;
                 background-color: rgb(24, 24, 24);
@@ -632,7 +633,7 @@
                 z-index: 100;
             }
             .navbar {
-                display: none;
+                display: none !important;
             }
             .navbarTophone svg {
                 width: 10%;
