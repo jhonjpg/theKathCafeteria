@@ -115,22 +115,22 @@ const Home = () => {
           <div className="menuSlideImage p-3 ">
 
 
-          <div className="row p-3 w-100 h-50 d-flex justify-content-center gap-4">
+          <div className="  w-100 h-50 gap-2 d-flex justify-content-around align-items-center ">
 
-              <div className="col-5  gap-1 foodOne"></div>
+              <div className="foodOne"></div>
 
-              <div className="col-5  gap-1 foodTwo"></div>
+              <div className=" foodTwo"></div>
 
 
 
             </div>
 
 
-            <div className="row p-3 w-100 h-50 d-flex justify-content-center gap-4">
+            <div className="  w-100 h-50 gap-2 d-flex justify-content-around align-items-center ">
 
-              <div className="col-5 foodThree "></div>
+              <div className="foodThree "></div>
 
-              <div className="col-5 foodFour"></div>
+              <div className=" foodFour"></div>
 
 
 

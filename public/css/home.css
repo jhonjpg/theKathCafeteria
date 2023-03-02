@@ -294,17 +294,9 @@
             padding: 10px;
         }
         
-        .menuSlideImage {
-            width: 40%;
-            height: 86%;
-            display: flex;
-            flex-direction: column;
-            gap: 3px;
-        }
-        
         .foodOne {
-            width: 100%;
-            height: 100%;
+            width: 100% !important;
+            height: 100% !important;
             border-radius: 20px;
             margin-right: 10px;
             background-image: url("../img/efa9578f-b1b2-4945-9c9d-f532bc8b5ab6.JPG");
@@ -328,7 +320,7 @@
         }
         
         .foodThree {
-            width: 80%;
+            width: 100%;
             height: 100%;
             border-radius: 20px;
             background-image: url("../img/mas/f2b3cc96-3a4f-46de-bc70-62ec21c9e5ec.JPG");
