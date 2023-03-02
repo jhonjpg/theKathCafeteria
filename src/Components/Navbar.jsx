@@ -59,7 +59,7 @@ export const Navbar = () => {
 
 
 
-        <Link to="/home" className="logo-with">  <div id="logo" className="">
+        <Link to="/theKathCafeteria/" className="logo-with">  <div id="logo" className="">
 
           <img
             src="../img/kathLogo.jpg"
@@ -75,10 +75,10 @@ export const Navbar = () => {
         <ul className="ulNv">
 
 
-          <li className="nav-item" onClick={handleScroll}> <NavLink exact="true" to="/" activeclassname="active" >  Home</NavLink></li>
-          <li className="nav-item" onClick={handleScroll}> <NavLink to="/menu" activeclassname="active" >  Menu</NavLink></li>
-          <li className="nav-item" onClick={handleScroll}> <NavLink to="/gallery" activeclassname="active" >  Galeria</NavLink></li>
-          <li className="nav-item" onClick={handleScroll}> <NavLink to="/contact" activeclassname="active">  Contacto</NavLink></li>
+          <li className="nav-item" onClick={handleScroll}> <NavLink exact="true" to="/theKathCafeteria/" activeclassname="active" >  Home</NavLink></li>
+          <li className="nav-item" onClick={handleScroll}> <NavLink to="/theKathCafeteria/menu" activeclassname="active" >  Menu</NavLink></li>
+          <li className="nav-item" onClick={handleScroll}> <NavLink to="/theKathCafeteria/gallery" activeclassname="active" >  Galeria</NavLink></li>
+          <li className="nav-item" onClick={handleScroll}> <NavLink to="/theKathCafeteria/contact" activeclassname="active">  Contacto</NavLink></li>
 
         </ul>
 

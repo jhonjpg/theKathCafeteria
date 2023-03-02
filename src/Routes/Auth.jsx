@@ -19,10 +19,10 @@ const Auth = () => {
         <Routes>
 
           <Route index element={<Home />}></Route>
-          <Route path="/home" element={<Home />}></Route>
-          <Route path="/menu" element={<Menu />}></Route>
-          <Route path="/gallery" element={<Gallery />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/theKathCafeteria/" element={<Home />}></Route>
+          <Route path="/theKathCafeteria/menu" element={<Menu />}></Route>
+          <Route path="/theKathCafeteria/gallery" element={<Gallery />}></Route>
+          <Route path="/theKathCafeteria/contact" element={<Contact />}></Route>
 
           <Route path="*" element={<NotfoundPage />}></Route>
 
