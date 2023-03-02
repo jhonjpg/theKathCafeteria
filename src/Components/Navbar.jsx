@@ -62,7 +62,7 @@ export const Navbar = () => {
         <Link to="/theKathCafeteria/" className="logo-with">  <div id="logo" className="">
 
           <img
-            src="../img/kathLogo.jpg"
+            src="img/kathLogo.jpg"
             className="block w-full"
             alt="The-Kath"
           />
