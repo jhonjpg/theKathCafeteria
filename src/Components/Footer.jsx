@@ -101,7 +101,7 @@ const Footer = () => {
     
     
     <div className="row  d-flex justify-content-center align-items-center  p-2 ">
-     <p> © Website developed by Jonathan Webdesign </p></div>
+     <p> © Website developed by P v G - Web Design </p></div>
     
     
     </footer> 

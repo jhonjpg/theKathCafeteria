@@ -104,10 +104,10 @@ export const Navbar = () => {
         <ul className={responsiveClass}>
 
 
-          <li onClick={handleScroll}> <NavLink exact="true" to="/" activeclassname="active" >  Home</NavLink></li>
-          <li onClick={handleScroll}> <NavLink to="/menu" activeclassname="active" >  Menu</NavLink></li>
-          <li onClick={handleScroll}> <NavLink to="/gallery" activeclassname="active" >  Galeria</NavLink></li>
-          <li onClick={handleScroll}> <NavLink to="/contact" activeclassname="active">  Contacto</NavLink></li>
+          <li onClick={handleScroll}> <NavLink exact="true" to="/theKathCafeteria/" activeclassname="active" >  Home</NavLink></li>
+          <li onClick={handleScroll}> <NavLink to="/theKathCafeteria/menu" activeclassname="active" >  Menu</NavLink></li>
+          <li onClick={handleScroll}> <NavLink to="/theKathCafeteria/gallery" activeclassname="active" >  Galeria</NavLink></li>
+          <li onClick={handleScroll}> <NavLink to="/theKathCafeteria/contact" activeclassname="active">  Contacto</NavLink></li>
 
         </ul>
 
