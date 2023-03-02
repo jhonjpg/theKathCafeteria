@@ -106,8 +106,8 @@ const Home = () => {
 
             <h1>The kath</h1>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nihil omnis, amet ullam, inventore consequuntur numquam sequi vel pariatur assumenda soluta corrupti consequatur facilis eum magni
-              adipisci! Placeat, voluptas aliquam?</p>
+            <p>Nuestro menú fue diseñado cuidadosa y meticulosamente para garantizar que creamos impresiones duraderas mientras brindamos a los clientes una rica experiencia gastronómica. The Kath se enorgullece de sus empleados de nivel experto que preparan cuidadosamente cada plato.
+</p>
 
 
           </div>
@@ -174,8 +174,8 @@ const Home = () => {
 
             <h1>The kath</h1>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nihil omnis, amet ullam, inventore consequuntur numquam sequi vel pariatur assumenda soluta corrupti consequatur facilis eum magni
-              adipisci! Placeat, voluptas aliquam?</p>
+            <p>The Kath se enorgullece de brindar a los clientes un ambiente integral donde todos pueden reunirse para eventos. Celebra tu día con nosotros.
+</p>
 
 
           </div>
