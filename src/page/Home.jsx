@@ -13,7 +13,7 @@ const Home = () => {
 
       <section className="desktop w-100" >
 
-        <div className="position-fixed z-1 w-100 ">
+        <div className="position-fixed z-4 w-100 ">
           <Navbar />
         </div>
 
@@ -122,7 +122,7 @@ const Home = () => {
 
           <h3>Ven</h3>
 
-          <h4>DISFRUTA CON NOSOTROS</h4>
+          <h4 className="">DISFRUTA CON NOSOTROS</h4>
 
 
 

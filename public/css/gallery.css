@@ -452,14 +452,4 @@
         border-radius: 20px;
         box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     }
-    .bebida3 {
-        width: 100%;
-        height: 100%;
-        background-image: url("../img/mas/bebida3.JPG");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 0px -50px;
-        border-radius: 20px;
-        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    }
 }

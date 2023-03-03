@@ -125,9 +125,7 @@ const Gallery = () => {
     <div className="bebida5"></div>
     </a>
 
-    <a className="grid-gallery__item w-100 h-75" href="#">
-    <div className="bebida6"></div>
-    </a>
+    
 
 </div>
 

@@ -38,7 +38,7 @@
 
 .menuNav li {
     display: flex;
-    font-family: fantasy;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -95,7 +95,6 @@
     border-radius: 30px;
     box-shadow: rgba(2, 2, 2, 0.4) -5px 5px, rgba(42, 42, 42, 0.3) -10px 10px, rgba(77, 77, 77, 0.2) -15px 15px, rgba(42, 42, 42, 0.1) -20px 20px, rgba(0, 0, 0, 0.05) -25px 25px;
     cursor: pointer;
-    transform-style: preserve-3d;
     animation: rotate 2s linear;
     animation-delay: 0.7s;
     transition: 1s;
@@ -294,8 +293,9 @@ ol {
         background-image: url("../img/5e9039d4-7aaf-4445-9f8d-4474ccb889a3.JPG");
         /* background-image: url("https://images.pexels.com/photos/604969/pexels-photo-604969.jpeg?auto=compress&cs=tinysrgb&w=600"); */
         background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        background-size: cover !important;
+        background-attachment: local;
+        background-position: 100% !important;
     }
     .menu p {
         display: none;
@@ -331,7 +331,6 @@ ol {
     .menuImage {
         width: 200px;
         height: 260px;
-        background-color: black;
         background-image: url("../img/mas/IMG_6175.jpg");
         background-repeat: no-repeat;
         background-size: 100%;
@@ -339,7 +338,7 @@ ol {
         border-radius: 30px;
         box-shadow: none !important;
         cursor: pointer;
-        transform-style: preserve-3d;
+        /* transform-style: preserve-3d; */
         animation-name: none;
         animation-delay: 0.7s;
         transition: 1s;

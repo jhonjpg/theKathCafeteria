@@ -29,7 +29,7 @@ const Menu = () => {
 
     <>
 
-      <div className="position-fixed  w-100 text-white ">
+      <div className="position-fixed  w-100 z-5 text-white ">
         <Navbar />
       </div>
 

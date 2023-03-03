@@ -8,7 +8,7 @@ export const Derretidos = () => {
 
     <li className="fs-2"> Queso Cheddar........................ $60</li>
     <li className="fs-2"> Queso Danes........................ $90</li>
-    <li className="fs-2"> Queso Mozazarella........................ $90</li>
+    <li className="fs-2"> Queso Mozazarella................ $90</li>
     <li className="fs-2"> Queso Gouda........................ $140</li>
 
     
