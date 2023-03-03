@@ -54,7 +54,7 @@ const Footer = () => {
 
 
 <div className="row  d-flex justify-content-center align-items-center  fs-5 p-2 ">
-© Website developed by Jonathan Webdesign </div>
+© Website developed by P v G - Web Design</div>
 
 
 </footer> 
@@ -100,8 +100,8 @@ const Footer = () => {
     </div>
     
     
-    <div className="row  d-flex justify-content-center align-items-center  p-2 ">
-     <p> © Website developed by P v G - Web Design </p></div>
+    <div className="row  d-flex justify-content-center align-items-center">
+     <p className="text-center"> © Website developed by P v G - Web Design </p></div>
     
     
     </footer> 

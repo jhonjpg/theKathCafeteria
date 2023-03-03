@@ -153,6 +153,22 @@
         width: 100%;
         height: 60vh;
     }
+    .contact {
+        font-family: fantasy !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: flex;
+        height: 50vh;
+        background-image: url("../img/99607494-0284-4d0f-880c-65f947723040.JPG");
+        /* background-image: url("https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg?auto=compress&cs=tinysrgb&w=600"); */
+        background-repeat: no-repeat;
+        background-attachment: none !important;
+        background-size: cover;
+        background-position: center;
+    }
     .map {
         width: 80%;
         background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDHqHjUGmTSWWi5TUnLXvrlgEhfRqUGdS-mQ&usqp=CAU");

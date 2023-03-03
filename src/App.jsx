@@ -5,8 +5,6 @@ import Auth from './Routes/auth'
 const App = () => {
   return (
     <div>
-      
-
       <Auth/>
     </div>
   )

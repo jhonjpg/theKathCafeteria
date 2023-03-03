@@ -64,6 +64,10 @@
             display: none !important;
         }
         
+        .phone {
+            display: none;
+        }
+        
         #intagram {
             display: none;
         }
@@ -120,6 +124,7 @@
         }
         
         li a {
+            font-family: fantasy;
             display: flex;
             font-weight: 900;
             justify-content: center;
@@ -262,10 +267,10 @@
             height: 56vh;
             background-image: url("../img/food.JPG");
             /* background-image: url("https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=600"); */
-            background-attachment: fixed;
             background-size: cover;
+            background-attachment: fixed;
             background-repeat: no-repeat;
-            background-position: 0px -610px;
+            background-position: center;
             overflow: hidden;
         }
         
@@ -298,6 +303,7 @@
         
         .foodOne {
             width: 100% !important;
+            min-width: 100px;
             height: 100% !important;
             border-radius: 20px;
             margin-right: 10px;
@@ -311,6 +317,7 @@
         
         .foodTwo {
             width: 100%;
+            min-width: 100px;
             height: 100%;
             border-radius: 20px;
             background-image: url("../img/99607494-0284-4d0f-880c-65f947723040.JPG");
@@ -323,6 +330,7 @@
         
         .foodThree {
             width: 100%;
+            min-width: 100px;
             height: 100%;
             border-radius: 20px;
             background-image: url("../img/mas/f2b3cc96-3a4f-46de-bc70-62ec21c9e5ec.JPG");
@@ -335,6 +343,7 @@
         
         .foodFour {
             width: 100%;
+            min-width: 110px;
             height: 100%;
             border-radius: 20px;
             background-image: url("../img/f081257a-3380-4b6b-98d0-56f9264392e5.JPG");
@@ -405,7 +414,6 @@
             position: absolute;
             text-align: center;
             font-size: 4em;
-            color: white;
         }
         
         .celebrateSlide {
@@ -540,6 +548,9 @@
         }
         
         @media (max-width: 800px) {
+            .desktop {
+                display: none;
+            }
             .ulNv {
                 width: 100%;
             }
@@ -568,7 +579,7 @@
         /* screen-Behavior */
         
         @media (max-width: 550px) {
-            .navbar {
+            .desktop {
                 display: none;
             }
             #intagram {
@@ -648,18 +659,21 @@
                 height: 100%;
                 object-fit: cover;
             }
-            .home {
+            .phone {
+                display: flex;
+                flex-direction: column;
+            }
+            .homePhone {
                 display: flex;
                 flex-direction: column;
                 width: 100%;
-                display: flex;
                 height: 100vh;
                 background-image: url("../img/kath.jpg");
                 /* background-image: url("https://images.pexels.com/photos/3679601/pexels-photo-3679601.jpeg?auto=compress&cs=tinysrgb&w=600"); */
                 background-repeat: no-repeat;
                 background-attachment: none !important;
                 background-size: cover;
-                background-position: 0px -200px;
+                background-position: center;
             }
             .welcomeResponsive {
                 display: flex;
@@ -713,21 +727,21 @@
                 font-size: 13px !important;
                 text-align: justify;
             }
-            .menuOption {
+            .menuOptionPhone {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-evenly;
                 align-items: center;
                 width: 100%;
-                height: 26vh !important;
-                background-image: url("../img/food.JPG");
+                height: 26vh;
+                background-image: url("../img/mas/bebida5.JPG");
                 /* background-image: url("https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=600"); */
-                background-size: contain !important;
+                background-size: cover;
                 background-repeat: no-repeat;
-                background-position: center !important;
+                background-position: center;
                 overflow: hidden;
             }
-            .menuOption h3 {
+            .menuOptionPhone h3 {
                 text-align: center;
                 width: 100%;
                 font-size: 0.9em !important;
@@ -735,29 +749,30 @@
                 position: absolute;
                 padding-bottom: 100px !important;
             }
-            .menuOption h4 {
+            .menuOptionPhone h4 {
                 text-align: center;
                 width: 100%;
                 font-size: 2em !important;
                 color: white;
                 position: absolute;
             }
-            .menuSlide {
+            .menuSlidePhone {
                 display: flex;
                 flex-direction: column-reverse !important;
+                justify-content: space-evenly;
                 align-items: center;
                 width: 100%;
                 height: 76vh !important;
                 padding: 10px;
             }
-            .menuSlideImage {
+            .menuSlidePhone .menuSlideImage {
                 width: 70% !important;
                 height: 46% !important;
                 display: flex;
                 flex-direction: column;
                 gap: 3px;
             }
-            .foodOne {
+            .menuSlidePhone .foodOne {
                 width: 100%;
                 height: 100%;
                 border-radius: 20px;
@@ -769,18 +784,7 @@
                 background-size: cover;
                 box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
             }
-            .foodTwo {
-                width: 100%;
-                height: 100%;
-                border-radius: 20px;
-                background-image: url("../img/99607494-0284-4d0f-880c-65f947723040.JPG");
-                /* background-image: url("https://images.pexels.com/photos/1633525/pexels-photo-1633525.jpeg?auto=compress&cs=tinysrgb&w=600"); */
-                background-repeat: no-repeat;
-                background-position: 100%;
-                background-size: cover;
-                box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-            }
-            .foodThree {
+            .menuSlidePhone .foodThree {
                 width: 100%;
                 height: 100%;
                 border-radius: 20px;
@@ -791,7 +795,7 @@
                 box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
                 background-size: cover;
             }
-            .foodFour {
+            .menuSlidePhone.foodFour {
                 width: 100%;
                 height: 100%;
                 border-radius: 20px;
@@ -802,7 +806,7 @@
                 background-size: cover;
                 box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
             }
-            .menuSlideLetter {
+            .menuSlidePhone .menuSlideLetter {
                 display: flex;
                 flex-direction: column;
                 overflow: hidden;
@@ -817,13 +821,13 @@
                 height: 46% !important;
                 box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
             }
-            .menuSlideLetter h2 {
+            .menuSlidePhone .menuSlideLetter h2 {
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: 15px;
                 width: 100%;
                 text-align: center;
             }
-            .menuSlideLetter h1 {
+            .menuSlidePhone .menuSlideLetter h1 {
                 font-family: fantasy;
                 width: 100%;
                 font-size: 15px !important;
@@ -832,52 +836,45 @@
                 text-align: center;
                 text-shadow: 6px 6px #989898, 4px 4px #6c6666;
             }
-            .menuSlideLetter p {
+            .menuSlidePhone .menuSlideLetter p {
                 font-family: Arial, Helvetica, sans-serif;
                 width: 100%;
                 height: 30%;
                 font-size: 8px !important;
                 text-align: justify;
             }
-            .celebrate {
+            .celebratePhone {
                 display: flex;
                 flex-direction: column;
+                justify-content: center;
                 align-items: center;
                 width: 100%;
-                height: 26vh !important;
+                height: 26vh;
                 background-image: url("../img/pic2.JPG");
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
             }
-            .celebrateSlide {
+            .celebrateSlidePhone {
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
-                justify-content: center !important;
+                justify-content: center;
                 align-items: center;
                 width: 100%;
                 height: 70vh !important;
                 padding: 1em !important;
                 /* background-color: rgb(218, 218, 218); */
-                gap: 2em !important;
+                gap: 1em;
             }
-            .celebrate h3 {
-                text-align: center;
-                width: 100%;
-                font-size: 0.9em !important;
-                color: white;
-                position: absolute;
-                padding-bottom: 100px !important;
-            }
-            .celebrate h4 {
+            .phone h4 {
                 text-align: center;
                 width: 100%;
                 font-size: 2em !important;
                 color: white;
                 position: absolute;
             }
-            .celebrateLetter {
+            .phone .celebrateLetter {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-evenly;
@@ -888,13 +885,13 @@
                 padding: 1em !important;
                 box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
             }
-            .celebrateLetter h2 {
+            .phone .celebrateLetter h2 {
                 font-size: 10px !important;
                 width: 100%;
                 height: 20%;
                 text-align: center;
             }
-            .celebrateLetter h1 {
+            .phone .celebrateLetter h1 {
                 font-family: fantasy;
                 display: flex;
                 justify-content: center;
@@ -904,14 +901,14 @@
                 font-size: 15px !important;
                 font-weight: 700;
             }
-            .celebrateLetter p {
+            .phone .celebrateLetter p {
                 font-family: Arial, Helvetica, sans-serif;
                 width: 100%;
                 height: 40%;
                 font-size: 8px !important;
                 text-align: justify;
             }
-            .celebrateImage {
+            .phone .celebrateImage {
                 float: left;
                 width: 45% !important;
                 height: 30%;
@@ -923,7 +920,7 @@
                 border-radius: 20px;
                 box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
             }
-            .celebrateImagetwo {
+            .phone .celebrateImagetwo {
                 width: 45% !important;
                 height: 30%;
                 /* background-image: url("https://images.pexels.com/photos/693269/pexels-photo-693269.jpeg?auto=compress&cs=tinysrgb&w=1200"); */
@@ -933,7 +930,7 @@
                 background-position: 100%;
                 box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
             }
-            .contact {
+            .contactphone {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
