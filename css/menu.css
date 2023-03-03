@@ -295,8 +295,7 @@ ol {
         /* background-image: url("https://images.pexels.com/photos/604969/pexels-photo-604969.jpeg?auto=compress&cs=tinysrgb&w=600"); */
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: 0px -220px;
-        background-attachment: fixed;
+        background-position: center;
     }
     .menu p {
         display: none;
