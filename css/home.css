@@ -414,6 +414,7 @@
             position: absolute;
             text-align: center;
             font-size: 4em;
+            color: white !important;
         }
         
         .celebrateSlide {
